@@ -4,18 +4,14 @@
 # The body of the commit message should provide more detail about the change. It should be wrapped at 72
 # characters and should explain the "why" behind the change, not just the "what."
 
-# --- GIT-ENHANCER ---
-# The following sections are for providing additional context about the change. Please fill them out as
-# completely as possible.
-
-# Design:
-# Describe the design of the change. This can include diagrams, flowcharts, or a description of the
-# architecture.
-
-# Tradeoffs:
-# Describe any tradeoffs that were made in the implementation of this change. This can include performance,
-# security, or usability tradeoffs.
-
-# Justification:
-# Explain why this change is necessary and what problem it solves. Provide any relevant context or background
-# information.
+# --- BEGIN AGENT CONTEXT ---
+# design: |
+#   Describe the design of the change here.
+#   This can include diagrams, flowcharts, or a description of the architecture.
+# tradeoffs: |
+#   Describe any tradeoffs that were made in the implementation of this change.
+#   This can include performance, security, or usability tradeoffs.
+# justification: |
+#   Explain why this change is necessary and what problem it solves.
+#   Provide any relevant context or background information.
+# --- END AGENT CONTEXT ---

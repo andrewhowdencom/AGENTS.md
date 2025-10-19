@@ -125,13 +125,25 @@ Some examples include:
 [What constitutes a 'Good Commit']: https://www.andrewhowden.com/p/anatomy-of-a-good-commit-message
 
 To make this process easier, this project includes a `.gitmessage` template that provides a structured format for
-writing commit messages. To use it, run the following command:
+writing commit messages. This template is designed to be parsed by AI agents, so it's important to follow the
+format closely. To use it, run the following command:
 
 ```bash
 task init
 ```
 
 This will configure `git` to use the template automatically when you run `git commit`.
+
+The template includes a special block for agent-specific context. This block starts with `--- BEGIN AGENT CONTEXT ---`
+and ends with `--- END AGENT CONTEXT ---`. Inside this block, you should provide the following information in a
+YAML-like format:
+
+*   `design`: A description of the design of the change.
+*   `tradeoffs`: A description of any tradeoffs that were made.
+*   `justification`: An explanation of why the change is necessary.
+
+This information will be used by AI agents to understand the context of the change and to make better decisions in
+the future.
 
 #### Body
 
