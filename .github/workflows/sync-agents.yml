@@ -1,0 +1,21 @@
+name: Sync Agents.md
+
+on:
+  push:
+    branches:
+      - main # Or your default branch
+    paths:
+      - 'Agents.md' # Only run when this file changes
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v3
+
+      - name: Run Repo File Sync
+        uses: BetaHuhn/repo-file-sync-action@v1
+        with:
+          GH_PAT: ${{ secrets.YOUR_PERSONAL_ACCESS_TOKEN }}
+          CONFIG_FILE: '.github/sync-config.yml'
