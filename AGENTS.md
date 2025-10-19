@@ -124,26 +124,26 @@ Some examples include:
 
 [What constitutes a 'Good Commit']: https://www.andrewhowden.com/p/anatomy-of-a-good-commit-message
 
-To make this process easier, this project includes a `.gitmessage` template that provides a structured format for
-writing commit messages. This template is designed to be parsed by AI agents, so it's important to follow the
-format closely. To use it, run the following command:
+When writing commit messages, it is crucial to provide structured context for AI agents. This allows them to
+understand the history of the project and make better decisions. To do this, include a special block in your
+commit message, formatted as follows:
 
-```bash
-task init
+```
+# --- BEGIN AGENT CONTEXT ---
+# design: |
+#   Describe the design of the change here.
+#   This can include diagrams, flowcharts, or a description of the architecture.
+# tradeoffs: |
+#   Describe any tradeoffs that were made in the implementation of this change.
+#   This can include performance, security, or usability tradeoffs.
+# justification: |
+#   Explain why this change is necessary and what problem it solves.
+#   Provide any relevant context or background information.
+# --- END AGENT CONTEXT ---
 ```
 
-This will configure `git` to use the template automatically when you run `git commit`.
-
-The template includes a special block for agent-specific context. This block starts with `--- BEGIN AGENT CONTEXT ---`
-and ends with `--- END AGENT CONTEXT ---`. Inside this block, you should provide the following information in a
-YAML-like format:
-
-*   `design`: A description of the design of the change.
-*   `tradeoffs`: A description of any tradeoffs that were made.
-*   `justification`: An explanation of why the change is necessary.
-
-This information will be used by AI agents to understand the context of the change and to make better decisions in
-the future.
+This block should be included in the body of your commit message. The information within this block will be used
+by AI agents to understand the context of the change.
 
 #### Body
 
