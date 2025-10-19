@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - main # Or your default branch
-    paths:
-      - 'AGENTS.md' # Only run when this file changes
+    # paths:
+    #   - 'AGENTS.md' # Only run when this file changes
 
 jobs:
   sync:
