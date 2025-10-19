@@ -124,6 +124,15 @@ Some examples include:
 
 [What constitutes a 'Good Commit']: https://www.andrewhowden.com/p/anatomy-of-a-good-commit-message
 
+To make this process easier, this project includes a `.gitmessage` template that provides a structured format for
+writing commit messages. To use it, run the following command:
+
+```bash
+task init
+```
+
+This will configure `git` to use the template automatically when you run `git commit`.
+
 #### Body
 
 The body should include primarily the justification for the changes, rather than a description of the changes themselves.

@@ -1,0 +1,21 @@
+# The first line is the subject of the commit, which should be a short, imperative-style summary of the change.
+# It should be 50 characters or less and should not end with a period.
+
+# The body of the commit message should provide more detail about the change. It should be wrapped at 72
+# characters and should explain the "why" behind the change, not just the "what."
+
+# --- GIT-ENHANCER ---
+# The following sections are for providing additional context about the change. Please fill them out as
+# completely as possible.
+
+# Design:
+# Describe the design of the change. This can include diagrams, flowcharts, or a description of the
+# architecture.
+
+# Tradeoffs:
+# Describe any tradeoffs that were made in the implementation of this change. This can include performance,
+# security, or usability tradeoffs.
+
+# Justification:
+# Explain why this change is necessary and what problem it solves. Provide any relevant context or background
+# information.
