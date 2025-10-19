@@ -198,6 +198,9 @@ func DoSomething() (string, error) {
 	return "", fmt.Errorf("%w: %s", ErrUpstreamFailure, fmt.Errorf("upstream error"))
 }
 ```
+### Markdown
+
+For Markdown documents, please break the documents at 120 characters.
 
 ## Tests
 
