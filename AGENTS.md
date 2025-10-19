@@ -201,7 +201,7 @@ func DoSomething() (string, error) {
 
 ## Tests
 
-For just about all non-trivial changes, make sure you develop via "test driven design". This means:
+For just about all changes, make sure you develop via "test driven design". This means:
 
 1. Write tests for the current behavior of the application
 2. Modify those tests so that they verify the new desired behavior of the application
