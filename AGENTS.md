@@ -124,28 +124,25 @@ Some examples include:
 
 [What constitutes a 'Good Commit']: https://www.andrewhowden.com/p/anatomy-of-a-good-commit-message
 
-To provide deeper insight into the history of changes, it's helpful to include a structured context block in your
-commit messages. This practice benefits everyone on the team by making the rationale behind changes clear and
-easy to reference. The format is as follows:
+To provide deeper insight into the history of changes, it's helpful to include structured context in your commit
+messages. This practice benefits everyone on the team by making the rationale behind changes clear and easy to
+reference. A good practice is to use the following headers in the commit body:
 
 ```
-# --- BEGIN COMMIT CONTEXT ---
-# Design:
-#   Describe the design of the change here. This can include notes on architecture,
-#   data flow, or other implementation details.
-#
-# Tradeoffs:
-#   Explain any tradeoffs that were made. This could involve decisions about
-#   performance, security, complexity, or other factors.
-#
-# Justification:
-#   Provide the reasoning for this change. Explain the problem that was solved
-#   or the opportunity that was seized.
-# --- END COMMIT CONTEXT ---
+Design:
+  Describe the design of the change here. This can include notes on architecture,
+  data flow, or other implementation details.
+
+Tradeoffs:
+  Explain any tradeoffs that were made. This could involve decisions about
+  performance, security, complexity, or other factors.
+
+Justification:
+  Provide the reasoning for this change. Explain the problem that was solved
+  or the opportunity that was seized.
 ```
 
-Including this block in the body of your commit message creates a richer, more valuable git history for future
-developers and maintainers.
+Using these headers creates a richer, more valuable git history for future developers and maintainers.
 
 #### Body
 
