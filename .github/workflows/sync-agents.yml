@@ -17,5 +17,6 @@ jobs:
       - name: Run Repo File Sync
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
+          SKIP_PR: true
           GH_PAT: ${{ secrets.WRITE_TOKEN }}
           CONFIG_FILE: '.github/sync-config.yml'
