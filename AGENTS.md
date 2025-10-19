@@ -209,6 +209,13 @@ For just about all changes, make sure you develop via "test driven design". This
 4. Adjust either the application or the tests until the tests pass
 5. Publish the change.
 
+## Dependency Injection
+
+Where possible and following the guidance of the library, use [Google Wire] as compile time dependency injection 
+for the Go program.
+
+[Google Wire]: https://github.com/google/wire
+
 ## Tools
 
 Make sure you have any tools required to build, compile or otherwise maintain the application by reviewing the
