@@ -14,10 +14,22 @@ task validate
 ```
 
 ## Stage Changes
-Stage changes by reviewing specific changes applied in files using patch mode:
+When staging changes, stage only the files that you have changed as part of your current stream of work
 
 ```bash
-git add --patch ./path/to/file
+git add ./path/to/file ./path/to/file2
+```
+
+⚠️ Never stage changes by adding the whole directory:
+
+```bash
+git add .
+```
+
+Instead, if you wish to stage folders, stage those also deliberately:
+
+```bash
+git add path/to/folder
 ```
 
 ## Amend Commits
