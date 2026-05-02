@@ -86,3 +86,16 @@ Co-authored-by: Claude <claude@pi.agent>
 Co-authored-by: Gemini <gemini@pi.agent>
 Co-authored-by: Claude <claude@direct.agent>
 ```
+
+#### Issue References
+When there is a reference to an existing issue tracker (e.g., GitHub Issues, Jira, Linear, etc.), include it as a Trailer at the end of the commit message. Use `Rel:` when the commit is related to the issue but does not resolve it:
+
+```
+Rel: https://github.com/org/repo/issues/123
+```
+
+Use `Fixes:` only when you are certain the commit fully resolves the issue:
+
+```
+Fixes: https://github.com/org/repo/issues/123
+```
