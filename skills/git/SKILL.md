@@ -71,4 +71,18 @@ If pair programming or crediting others, add co-authors at the end of the body:
 Co-authored-by: NAME <NAME@EXAMPLE.COM>
 ```
 
-Coding agents (e.g. Gemini, Claude, Antigravity) are all pair-programmers, and should ensure their own emails are added in "Co-Authored-By".
+Coding agents are pair-programmers and must credit themselves. Use a consistent format that includes both the **model** and the **harness**:
+
+```
+Co-authored-by: ${MODEL} <${MODEL}@${HARNESS}.agent>
+```
+
+- **${MODEL}**: The AI model generating the commit (e.g., `Claude`, `Gemini`).
+- **${HARNESS}**: The agent harness orchestrating the session (e.g., `pi`). If no harness is present, use `direct`.
+
+Examples:
+```
+Co-authored-by: Claude <claude@pi.agent>
+Co-authored-by: Gemini <gemini@pi.agent>
+Co-authored-by: Claude <claude@direct.agent>
+```

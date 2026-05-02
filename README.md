@@ -36,18 +36,26 @@ skr install go:local
 
 | Skill | Description | Registry Ref |
 | :--- | :--- | :--- |
+| **[agent-validation](./skills/agent-validation/SKILL.md)** | Validate designs against use cases | `ghcr.io/andrewhowdencom/agent-validation` |
 | **[architecture](./skills/architecture/SKILL.md)** | System design patterns | `ghcr.io/andrewhowdencom/architecture` |
 | **[ci](./skills/ci/SKILL.md)** | CI/CD pipelines | `ghcr.io/andrewhowdencom/ci` |
 | **[cli](./skills/cli/SKILL.md)** | CLI development | `ghcr.io/andrewhowdencom/cli` |
 | **[configuration](./skills/configuration/SKILL.md)** | Config management | `ghcr.io/andrewhowdencom/configuration` |
-| **[dependency-injection](./skills/dependency_injection/SKILL.md)** | DI patterns | `ghcr.io/andrewhowdencom/dependency-injection` |
+| **[dependency-injection](./skills/dependency-injection/SKILL.md)** | DI patterns | `ghcr.io/andrewhowdencom/dependency-injection` |
 | **[documentation](./skills/documentation/SKILL.md)** | Documentation standards | `ghcr.io/andrewhowdencom/documentation` |
+| **[engram](./skills/engram/SKILL.md)** | Memory store interaction via MCP | `ghcr.io/andrewhowdencom/engram` |
+| **[extensibility](./skills/extensibility/SKILL.md)** | Dual-use CLI/library architecture | `ghcr.io/andrewhowdencom/extensibility` |
 | **[git](./skills/git/SKILL.md)** | Git workflow & standards | `ghcr.io/andrewhowdencom/git` |
 | **[go](./skills/go/SKILL.md)** | Go language standards | `ghcr.io/andrewhowdencom/go` |
+| **[hitl](./skills/hitl/SKILL.md)** | CEL permission sandbox config | `ghcr.io/andrewhowdencom/hitl` |
 | **[instrumentation](./skills/instrumentation/SKILL.md)** | Metrics & Tracing | `ghcr.io/andrewhowdencom/instrumentation` |
+| **[mcp-cli](./skills/mcp-cli/SKILL.md)** | MCP server CLI interface | `ghcr.io/andrewhowdencom/mcp-cli` |
+| **[python](./skills/python/SKILL.md)** | Python development standards | `ghcr.io/andrewhowdencom/python` |
 | **[rpc](./skills/rpc/SKILL.md)** | RPC/Proto standards | `ghcr.io/andrewhowdencom/rpc` |
 | **[taskfile](./skills/taskfile/SKILL.md)** | Taskfile patterns | `ghcr.io/andrewhowdencom/taskfile` |
 | **[tools](./skills/tools/SKILL.md)** | Tooling configuration | `ghcr.io/andrewhowdencom/tools` |
+| **[ui](./skills/ui/SKILL.md)** | Dux UI design principles | `ghcr.io/andrewhowdencom/ui` |
+| **[worktree](./skills/worktree/SKILL.md)** | Git worktree task isolation | `ghcr.io/andrewhowdencom/worktree` |
 
 ## Philosophy: Inlined Expertise
 
