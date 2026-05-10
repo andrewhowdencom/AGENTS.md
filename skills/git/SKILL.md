@@ -13,6 +13,16 @@ Run the `validate` task just prior to commit:
 task validate
 ```
 
+## Commit Plans
+When a development plan is created (e.g., `.plans/$1.md`), commit it to the repository as a separate, tracked artifact before execution begins. This ensures the plan is versioned and reviewable alongside the codebase.
+
+```bash
+git add .plans/$1.md
+git commit -m "docs(plan): Add development plan for $1"
+```
+
+Use an imperative mood subject and keep it ≤72 characters. If the plan relates to an existing issue, add a `Rel:` or `Fixes:` trailer.
+
 ## Stage Changes
 When staging changes, stage only the files that you have changed as part of your current stream of work
 
