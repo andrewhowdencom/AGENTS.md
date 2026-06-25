@@ -56,6 +56,7 @@ skr install go:local
 | **[tools](./skills/tools/SKILL.md)** | Tooling configuration | `ghcr.io/andrewhowdencom/tools` |
 | **[ui](./skills/ui/SKILL.md)** | Dux UI design principles | `ghcr.io/andrewhowdencom/ui` |
 | **[worktree](./skills/worktree/SKILL.md)** | Git worktree task isolation | `ghcr.io/andrewhowdencom/worktree` |
+| **[writing-skills](./skills/writing-skills/SKILL.md)** | Create, review, and improve agent skills | `ghcr.io/andrewhowdencom/writing-skills` |
 
 ## Philosophy: Inlined Expertise
 
